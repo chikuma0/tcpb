@@ -1,0 +1,96 @@
+{
+  "locations": [
+    {
+      "location_id": "loc_001",
+      "location_name": "八王子市",
+      "related_projects": [
+        "カフェこすもす",
+        "食事サービス加多厨"
+      ]
+    },
+    {
+      "location_id": "loc_002",
+      "location_name": "東京",
+      "related_projects": [
+        "高齢社会の食と職を考える チャンプルーの会"
+      ]
+    },
+    {
+      "location_id": "loc_003",
+      "location_name": "杉並区",
+      "related_projects": [
+        "杉並アヤックスサッカークラブ"
+      ]
+    },
+    {
+      "location_id": "loc_004",
+      "location_name": "新宿区",
+      "related_projects": [
+        "自立支援センター ふるさとの会"
+      ]
+    },
+    {
+      "location_id": "loc_005",
+      "location_name": "板橋区",
+      "related_projects": [
+        "ACT板橋たすけあいワーカーズあやとり"
+      ]
+    },
+    {
+      "location_id": "loc_006",
+      "location_name": "江戸川区",
+      "related_projects": [
+        "ほっとコミュニティえどがわ"
+      ]
+    },
+    {
+      "location_id": "loc_007",
+      "location_name": "荒川区",
+      "related_projects": [
+        "あうん"
+      ]
+    },
+    {
+      "location_id": "loc_008",
+      "location_name": "千代田区",
+      "related_projects": [
+        "コレクティブハウジング社"
+      ]
+    },
+    {
+      "location_id": "loc_009",
+      "location_name": "松戸市",
+      "related_projects": [
+        "生活支援センターあらかわと"
+      ]
+    },
+    {
+      "location_id": "loc_010",
+      "location_name": "世田谷区",
+      "related_projects": [
+        "エコメッセ"
+      ]
+    },
+    {
+      "location_id": "loc_011",
+      "location_name": "狛江市",
+      "related_projects": [
+        "狛江さつき会 カレーショップメイ"
+      ]
+    },
+    {
+      "location_id": "loc_012",
+      "location_name": "町田市",
+      "related_projects": [
+        "ACT町田たすけあいワーカーズ"
+      ]
+    },
+    {
+      "location_id": "loc_013",
+      "location_name": "多摩市",
+      "related_projects": [
+        "麻の葉"
+      ]
+    }
+  ]
+}

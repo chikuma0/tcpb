@@ -1,0 +1,32 @@
+{
+  "concepts": [
+    {
+      "concept_id": "concept_001",
+      "name_ja": "市民金融",
+      "name_en": "Citizen Finance",
+      "description_ja": "市民が出資し、その資金を地域社会やNPOなどの活動に融資する仕組み。",
+      "confidence": "high"
+    },
+    {
+      "concept_id": "concept_002",
+      "name_ja": "意志ある出資",
+      "name_en": "Intentional investment",
+      "description_ja": "社会を変える一つのアクション。私のお金を環境破壊や戦争に使いたくない。暮らしやすいまちづくりのために使いたい。",
+      "confidence": "high"
+    },
+    {
+      "concept_id": "concept_003",
+      "name_ja": "意義ある融資",
+      "name_en": "Meaningful lending",
+      "description_ja": "市民がつくる経済。子どもたちの未来に生かしたい。持続可能な社会を実現する制度提案につなげたい。",
+      "confidence": "high"
+    },
+    {
+      "concept_id": "concept_004",
+      "name_ja": "しあわせな地域をつくるために",
+      "name_en": "To create happy communities",
+      "description_ja": "東京CPBの投融資の最終目的を示すフレーズ。",
+      "confidence": "high"
+    }
+  ]
+}

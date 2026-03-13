@@ -1,0 +1,16 @@
+{
+  "dataset": "cpb_governance_rules",
+  "key_structures": {
+    "governing_bodies_ja": [
+      "理事会",
+      "市民審査委員会"
+    ],
+    "membership_summary_ja": "出資を通じて会員となり、会議や委員会への参加を通じて運営に関わる。",
+    "principles_ja": [
+      "社会的価値を重視",
+      "地域に根ざした金融判断",
+      "透明性と説明責任"
+    ]
+  },
+  "confidence": "medium"
+}

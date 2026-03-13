@@ -1,0 +1,22 @@
+{
+  "dataset": "cpb_basic_statistics",
+  "period": "2004-2022",
+  "headline_metrics": {
+    "loan_count_total": 114,
+    "loan_total_yen": 581600000,
+    "social_investment_count": 2,
+    "social_investment_total_yen": 23000000
+  },
+  "sector_distribution_percent": {
+    "環境保全": 40,
+    "まちづくり": 25,
+    "福祉": 17,
+    "その他": 18
+  },
+  "loan_type_distribution_percent": {
+    "つなぎ資金": 66,
+    "設備投資": 24,
+    "運転資金": 10
+  },
+  "confidence": "high"
+}

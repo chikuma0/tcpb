@@ -1,0 +1,88 @@
+{
+  "projects": [
+    {
+      "project_id": "proj_001",
+      "project_name_ja": "カフェこすもす",
+      "organization": "カフェこすもす",
+      "location": "八王子市"
+    },
+    {
+      "project_id": "proj_002",
+      "project_name_ja": "高齢社会の食と職を考える チャンプルーの会",
+      "organization": "高齢社会の食と職を考える チャンプルーの会",
+      "location": "東京"
+    },
+    {
+      "project_id": "proj_003",
+      "project_name_ja": "杉並アヤックスサッカークラブ",
+      "organization": "杉並アヤックスサッカークラブ",
+      "location": "杉並区"
+    },
+    {
+      "project_id": "proj_004",
+      "project_name_ja": "自立支援センター ふるさとの会",
+      "organization": "自立支援センター ふるさとの会",
+      "location": "新宿区"
+    },
+    {
+      "project_id": "proj_005",
+      "project_name_ja": "ACT板橋たすけあいワーカーズあやとり",
+      "organization": "ACT板橋たすけあいワーカーズあやとり",
+      "location": "板橋区"
+    },
+    {
+      "project_id": "proj_006",
+      "project_name_ja": "ほっとコミュニティえどがわ",
+      "organization": "ほっとコミュニティえどがわ",
+      "location": "江戸川区"
+    },
+    {
+      "project_id": "proj_007",
+      "project_name_ja": "あうん",
+      "organization": "あうん",
+      "location": "荒川区"
+    },
+    {
+      "project_id": "proj_008",
+      "project_name_ja": "コレクティブハウジング社",
+      "organization": "コレクティブハウジング社",
+      "location": "千代田区"
+    },
+    {
+      "project_id": "proj_009",
+      "project_name_ja": "生活支援センターあらかわと",
+      "organization": "生活支援センターあらかわと",
+      "location": "松戸市"
+    },
+    {
+      "project_id": "proj_010",
+      "project_name_ja": "エコメッセ",
+      "organization": "エコメッセ",
+      "location": "世田谷区"
+    },
+    {
+      "project_id": "proj_011",
+      "project_name_ja": "狛江さつき会 カレーショップメイ",
+      "organization": "狛江さつき会 カレーショップメイ",
+      "location": "狛江市"
+    },
+    {
+      "project_id": "proj_012",
+      "project_name_ja": "ACT町田たすけあいワーカーズ",
+      "organization": "ACT町田たすけあいワーカーズ",
+      "location": "町田市"
+    },
+    {
+      "project_id": "proj_013",
+      "project_name_ja": "麻の葉",
+      "organization": "麻の葉",
+      "location": "多摩市"
+    },
+    {
+      "project_id": "proj_014",
+      "project_name_ja": "食事サービス加多厨",
+      "organization": "食事サービス加多厨",
+      "location": "八王子市"
+    }
+  ]
+}

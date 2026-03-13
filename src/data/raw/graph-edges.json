@@ -1,0 +1,436 @@
+{
+  "edges": [
+    {
+      "edge_id": "e_person_roundtable_001_org",
+      "source": "person_roundtable_001",
+      "target": "org_tokyo_cpb",
+      "relationship": "affiliated_with"
+    },
+    {
+      "edge_id": "e_person_roundtable_002_org",
+      "source": "person_roundtable_002",
+      "target": "org_tokyo_cpb",
+      "relationship": "affiliated_with"
+    },
+    {
+      "edge_id": "e_person_roundtable_003_org",
+      "source": "person_roundtable_003",
+      "target": "org_tokyo_cpb",
+      "relationship": "affiliated_with"
+    },
+    {
+      "edge_id": "e_person_roundtable_004_org",
+      "source": "person_roundtable_004",
+      "target": "org_tokyo_cpb",
+      "relationship": "affiliated_with"
+    },
+    {
+      "edge_id": "e_person_roundtable_005_org",
+      "source": "person_roundtable_005",
+      "target": "org_tokyo_cpb",
+      "relationship": "affiliated_with"
+    },
+    {
+      "edge_id": "e_org_concept_001",
+      "source": "org_tokyo_cpb",
+      "target": "concept_001",
+      "relationship": "embodies_concept"
+    },
+    {
+      "edge_id": "e_org_concept_002",
+      "source": "org_tokyo_cpb",
+      "target": "concept_002",
+      "relationship": "embodies_concept"
+    },
+    {
+      "edge_id": "e_org_concept_003",
+      "source": "org_tokyo_cpb",
+      "target": "concept_003",
+      "relationship": "embodies_concept"
+    },
+    {
+      "edge_id": "e_org_concept_004",
+      "source": "org_tokyo_cpb",
+      "target": "concept_004",
+      "relationship": "embodies_concept"
+    },
+    {
+      "edge_id": "e_cpb_org_001",
+      "source": "org_tokyo_cpb",
+      "target": "org_001",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_001_loc_001",
+      "source": "org_001",
+      "target": "loc_001",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_002",
+      "source": "org_tokyo_cpb",
+      "target": "org_002",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_002_loc_002",
+      "source": "org_002",
+      "target": "loc_002",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_003",
+      "source": "org_tokyo_cpb",
+      "target": "org_003",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_003_loc_003",
+      "source": "org_003",
+      "target": "loc_003",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_004",
+      "source": "org_tokyo_cpb",
+      "target": "org_004",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_004_loc_004",
+      "source": "org_004",
+      "target": "loc_004",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_005",
+      "source": "org_tokyo_cpb",
+      "target": "org_005",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_005_loc_005",
+      "source": "org_005",
+      "target": "loc_005",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_006",
+      "source": "org_tokyo_cpb",
+      "target": "org_006",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_006_loc_006",
+      "source": "org_006",
+      "target": "loc_006",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_007",
+      "source": "org_tokyo_cpb",
+      "target": "org_007",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_007_loc_007",
+      "source": "org_007",
+      "target": "loc_007",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_008",
+      "source": "org_tokyo_cpb",
+      "target": "org_008",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_008_loc_008",
+      "source": "org_008",
+      "target": "loc_008",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_009",
+      "source": "org_tokyo_cpb",
+      "target": "org_009",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_009_loc_009",
+      "source": "org_009",
+      "target": "loc_009",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_010",
+      "source": "org_tokyo_cpb",
+      "target": "org_010",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_010_loc_010",
+      "source": "org_010",
+      "target": "loc_010",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_011",
+      "source": "org_tokyo_cpb",
+      "target": "org_011",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_011_loc_011",
+      "source": "org_011",
+      "target": "loc_011",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_012",
+      "source": "org_tokyo_cpb",
+      "target": "org_012",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_012_loc_012",
+      "source": "org_012",
+      "target": "loc_012",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_013",
+      "source": "org_tokyo_cpb",
+      "target": "org_013",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_013_loc_013",
+      "source": "org_013",
+      "target": "loc_013",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_cpb_org_014",
+      "source": "org_tokyo_cpb",
+      "target": "org_014",
+      "relationship": "funds_or_supports"
+    },
+    {
+      "edge_id": "e_org_014_loc_001",
+      "source": "org_014",
+      "target": "loc_001",
+      "relationship": "located_in"
+    },
+    {
+      "edge_id": "e_org_001_proj_001",
+      "source": "org_001",
+      "target": "proj_001",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_001_loc_001",
+      "source": "proj_001",
+      "target": "loc_001",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_002_proj_002",
+      "source": "org_002",
+      "target": "proj_002",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_002_loc_002",
+      "source": "proj_002",
+      "target": "loc_002",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_003_proj_003",
+      "source": "org_003",
+      "target": "proj_003",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_003_loc_003",
+      "source": "proj_003",
+      "target": "loc_003",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_004_proj_004",
+      "source": "org_004",
+      "target": "proj_004",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_004_loc_004",
+      "source": "proj_004",
+      "target": "loc_004",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_005_proj_005",
+      "source": "org_005",
+      "target": "proj_005",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_005_loc_005",
+      "source": "proj_005",
+      "target": "loc_005",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_006_proj_006",
+      "source": "org_006",
+      "target": "proj_006",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_006_loc_006",
+      "source": "proj_006",
+      "target": "loc_006",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_007_proj_007",
+      "source": "org_007",
+      "target": "proj_007",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_007_loc_007",
+      "source": "proj_007",
+      "target": "loc_007",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_008_proj_008",
+      "source": "org_008",
+      "target": "proj_008",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_008_loc_008",
+      "source": "proj_008",
+      "target": "loc_008",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_009_proj_009",
+      "source": "org_009",
+      "target": "proj_009",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_009_loc_009",
+      "source": "proj_009",
+      "target": "loc_009",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_010_proj_010",
+      "source": "org_010",
+      "target": "proj_010",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_010_loc_010",
+      "source": "proj_010",
+      "target": "loc_010",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_011_proj_011",
+      "source": "org_011",
+      "target": "proj_011",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_011_loc_011",
+      "source": "proj_011",
+      "target": "loc_011",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_012_proj_012",
+      "source": "org_012",
+      "target": "proj_012",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_012_loc_012",
+      "source": "proj_012",
+      "target": "loc_012",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_013_proj_013",
+      "source": "org_013",
+      "target": "proj_013",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_013_loc_013",
+      "source": "proj_013",
+      "target": "loc_013",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_org_014_proj_014",
+      "source": "org_014",
+      "target": "proj_014",
+      "relationship": "operates_project"
+    },
+    {
+      "edge_id": "e_proj_014_loc_001",
+      "source": "proj_014",
+      "target": "loc_001",
+      "relationship": "takes_place_in"
+    },
+    {
+      "edge_id": "e_timeline_009_cpb",
+      "source": "timeline_009",
+      "target": "org_tokyo_cpb",
+      "relationship": "milestone_for"
+    },
+    {
+      "edge_id": "e_timeline_010_cpb",
+      "source": "timeline_010",
+      "target": "org_tokyo_cpb",
+      "relationship": "milestone_for"
+    },
+    {
+      "edge_id": "e_timeline_013_cpb",
+      "source": "timeline_013",
+      "target": "org_tokyo_cpb",
+      "relationship": "milestone_for"
+    },
+    {
+      "edge_id": "e_timeline_017_cpb",
+      "source": "timeline_017",
+      "target": "org_tokyo_cpb",
+      "relationship": "milestone_for"
+    },
+    {
+      "edge_id": "e_cpb_financial_model",
+      "source": "org_tokyo_cpb",
+      "target": "financial_model_001",
+      "relationship": "uses_model"
+    },
+    {
+      "edge_id": "e_cpb_statistics",
+      "source": "org_tokyo_cpb",
+      "target": "statistics_001",
+      "relationship": "described_by_statistics"
+    },
+    {
+      "edge_id": "e_cpb_governance",
+      "source": "org_tokyo_cpb",
+      "target": "governance_001",
+      "relationship": "governed_by"
+    }
+  ]
+}

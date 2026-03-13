@@ -1,0 +1,40 @@
+{
+  "status": "research-grade representative quotes",
+  "quotes": [
+    {
+      "speaker": "植田泉",
+      "quote_ja": "市民のお金で地域の活動を支える仕組みを作りたいという思いから東京CPBは始まりました。",
+      "theme": "市民金融",
+      "scan_page": 8,
+      "confidence": "medium"
+    },
+    {
+      "speaker": "吉田由美子",
+      "quote_ja": "小さなお金でも地域の中で循環すれば大きな力になります。",
+      "theme": "お金の地域循環",
+      "scan_page": 7,
+      "confidence": "medium"
+    },
+    {
+      "speaker": "石塚芳恵",
+      "quote_ja": "NPOの活動を支える金融の仕組みが必要だと感じていました。",
+      "theme": "NPO支援",
+      "scan_page": 6,
+      "confidence": "medium"
+    },
+    {
+      "speaker": "庄妙子",
+      "quote_ja": "地域の人たちが自分たちで未来を作るためのお金の仕組みが大切です。",
+      "theme": "地域づくり",
+      "scan_page": 5,
+      "confidence": "medium"
+    },
+    {
+      "speaker": "坪井真里",
+      "quote_ja": "若い世代にもこの仕組みを引き継いでいくことが重要だと思います。",
+      "theme": "次世代への継承",
+      "scan_page": 9,
+      "confidence": "medium"
+    }
+  ]
+}

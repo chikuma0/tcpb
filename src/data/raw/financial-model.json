@@ -1,0 +1,37 @@
+{
+  "model_name": "Tokyo CPB Citizen Finance Model",
+  "target_borrowers_ja": [
+    "東京周辺の小規模事業者",
+    "NPO",
+    "ワーカーズ",
+    "コレクティブ"
+  ],
+  "loan_purposes_ja": [
+    "設備資金",
+    "つなぎ資金",
+    "運転資金"
+  ],
+  "interest_rates": {
+    "通常": "1.0%",
+    "つなぎ": "0.8%",
+    "ともだち融資団": "0.8%",
+    "100%ともだち融資団": "0.5%"
+  },
+  "repayment": {
+    "standard": "最長5年",
+    "bridge": "つなぎは1年以内"
+  },
+  "guarantee_ja": [
+    "無担保",
+    "連帯保証人2名以上"
+  ],
+  "review_body_ja": "市民・専門家による市民審査委員会",
+  "review_criteria_ja": [
+    "社会的使命",
+    "財務能力",
+    "民主的運営組織",
+    "地域のネットワーク力",
+    "情報公開"
+  ],
+  "confidence": "high"
+}

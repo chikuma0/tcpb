@@ -1,0 +1,403 @@
+{
+  "nodes": [
+    {
+      "node_id": "org_tokyo_cpb",
+      "type": "organization",
+      "name_ja": "東京CPB",
+      "name_en": "Tokyo Community Power Bank"
+    },
+    {
+      "node_id": "person_roundtable_001",
+      "type": "person",
+      "name_ja": "庄妙子",
+      "role_ja": "理事"
+    },
+    {
+      "node_id": "person_roundtable_002",
+      "type": "person",
+      "name_ja": "吉田由美子",
+      "role_ja": "理事"
+    },
+    {
+      "node_id": "person_roundtable_003",
+      "type": "person",
+      "name_ja": "石塚芳恵",
+      "role_ja": "元市民審査委員"
+    },
+    {
+      "node_id": "person_roundtable_004",
+      "type": "person",
+      "name_ja": "植田泉",
+      "role_ja": "理事長"
+    },
+    {
+      "node_id": "person_roundtable_005",
+      "type": "person",
+      "name_ja": "坪井真里",
+      "role_ja": "事務局長"
+    },
+    {
+      "node_id": "concept_001",
+      "type": "concept",
+      "name_ja": "市民金融",
+      "name_en": "Citizen Finance"
+    },
+    {
+      "node_id": "concept_002",
+      "type": "concept",
+      "name_ja": "意志ある出資",
+      "name_en": "Intentional investment"
+    },
+    {
+      "node_id": "concept_003",
+      "type": "concept",
+      "name_ja": "意義ある融資",
+      "name_en": "Meaningful lending"
+    },
+    {
+      "node_id": "concept_004",
+      "type": "concept",
+      "name_ja": "しあわせな地域をつくるために",
+      "name_en": "To create happy communities"
+    },
+    {
+      "node_id": "loc_001",
+      "type": "location",
+      "name_ja": "八王子市"
+    },
+    {
+      "node_id": "loc_002",
+      "type": "location",
+      "name_ja": "東京"
+    },
+    {
+      "node_id": "loc_003",
+      "type": "location",
+      "name_ja": "杉並区"
+    },
+    {
+      "node_id": "loc_004",
+      "type": "location",
+      "name_ja": "新宿区"
+    },
+    {
+      "node_id": "loc_005",
+      "type": "location",
+      "name_ja": "板橋区"
+    },
+    {
+      "node_id": "loc_006",
+      "type": "location",
+      "name_ja": "江戸川区"
+    },
+    {
+      "node_id": "loc_007",
+      "type": "location",
+      "name_ja": "荒川区"
+    },
+    {
+      "node_id": "loc_008",
+      "type": "location",
+      "name_ja": "千代田区"
+    },
+    {
+      "node_id": "loc_009",
+      "type": "location",
+      "name_ja": "松戸市"
+    },
+    {
+      "node_id": "loc_010",
+      "type": "location",
+      "name_ja": "世田谷区"
+    },
+    {
+      "node_id": "loc_011",
+      "type": "location",
+      "name_ja": "狛江市"
+    },
+    {
+      "node_id": "loc_012",
+      "type": "location",
+      "name_ja": "町田市"
+    },
+    {
+      "node_id": "loc_013",
+      "type": "location",
+      "name_ja": "多摩市"
+    },
+    {
+      "node_id": "org_001",
+      "type": "organization",
+      "name_ja": "カフェこすもす"
+    },
+    {
+      "node_id": "org_002",
+      "type": "organization",
+      "name_ja": "高齢社会の食と職を考える チャンプルーの会"
+    },
+    {
+      "node_id": "org_003",
+      "type": "organization",
+      "name_ja": "杉並アヤックスサッカークラブ"
+    },
+    {
+      "node_id": "org_004",
+      "type": "organization",
+      "name_ja": "自立支援センター ふるさとの会"
+    },
+    {
+      "node_id": "org_005",
+      "type": "organization",
+      "name_ja": "ACT板橋たすけあいワーカーズあやとり"
+    },
+    {
+      "node_id": "org_006",
+      "type": "organization",
+      "name_ja": "ほっとコミュニティえどがわ"
+    },
+    {
+      "node_id": "org_007",
+      "type": "organization",
+      "name_ja": "あうん"
+    },
+    {
+      "node_id": "org_008",
+      "type": "organization",
+      "name_ja": "コレクティブハウジング社"
+    },
+    {
+      "node_id": "org_009",
+      "type": "organization",
+      "name_ja": "生活支援センターあらかわと"
+    },
+    {
+      "node_id": "org_010",
+      "type": "organization",
+      "name_ja": "エコメッセ"
+    },
+    {
+      "node_id": "org_011",
+      "type": "organization",
+      "name_ja": "狛江さつき会 カレーショップメイ"
+    },
+    {
+      "node_id": "org_012",
+      "type": "organization",
+      "name_ja": "ACT町田たすけあいワーカーズ"
+    },
+    {
+      "node_id": "org_013",
+      "type": "organization",
+      "name_ja": "麻の葉"
+    },
+    {
+      "node_id": "org_014",
+      "type": "organization",
+      "name_ja": "食事サービス加多厨"
+    },
+    {
+      "node_id": "proj_001",
+      "type": "project",
+      "name_ja": "カフェこすもす"
+    },
+    {
+      "node_id": "proj_002",
+      "type": "project",
+      "name_ja": "高齢社会の食と職を考える チャンプルーの会"
+    },
+    {
+      "node_id": "proj_003",
+      "type": "project",
+      "name_ja": "杉並アヤックスサッカークラブ"
+    },
+    {
+      "node_id": "proj_004",
+      "type": "project",
+      "name_ja": "自立支援センター ふるさとの会"
+    },
+    {
+      "node_id": "proj_005",
+      "type": "project",
+      "name_ja": "ACT板橋たすけあいワーカーズあやとり"
+    },
+    {
+      "node_id": "proj_006",
+      "type": "project",
+      "name_ja": "ほっとコミュニティえどがわ"
+    },
+    {
+      "node_id": "proj_007",
+      "type": "project",
+      "name_ja": "あうん"
+    },
+    {
+      "node_id": "proj_008",
+      "type": "project",
+      "name_ja": "コレクティブハウジング社"
+    },
+    {
+      "node_id": "proj_009",
+      "type": "project",
+      "name_ja": "生活支援センターあらかわと"
+    },
+    {
+      "node_id": "proj_010",
+      "type": "project",
+      "name_ja": "エコメッセ"
+    },
+    {
+      "node_id": "proj_011",
+      "type": "project",
+      "name_ja": "狛江さつき会 カレーショップメイ"
+    },
+    {
+      "node_id": "proj_012",
+      "type": "project",
+      "name_ja": "ACT町田たすけあいワーカーズ"
+    },
+    {
+      "node_id": "proj_013",
+      "type": "project",
+      "name_ja": "麻の葉"
+    },
+    {
+      "node_id": "proj_014",
+      "type": "project",
+      "name_ja": "食事サービス加多厨"
+    },
+    {
+      "node_id": "timeline_001",
+      "type": "timeline_event",
+      "year": 1968,
+      "event_ja": "生活クラブ生協設立",
+      "category": "movement"
+    },
+    {
+      "node_id": "timeline_002",
+      "type": "timeline_event",
+      "year": 1977,
+      "event_ja": "生活者ネットワーク設立",
+      "category": "movement"
+    },
+    {
+      "node_id": "timeline_003",
+      "type": "timeline_event",
+      "year": 1984,
+      "event_ja": "東京ワーカーズコレクティブ協同組合設立",
+      "category": "movement"
+    },
+    {
+      "node_id": "timeline_004",
+      "type": "timeline_event",
+      "year": 1992,
+      "event_ja": "女性・市民信用組合設立準備会設立",
+      "category": "movement"
+    },
+    {
+      "node_id": "timeline_005",
+      "type": "timeline_event",
+      "year": 1998,
+      "event_ja": "NPO法施行",
+      "category": "policy_change"
+    },
+    {
+      "node_id": "timeline_006",
+      "type": "timeline_event",
+      "year": 2000,
+      "event_ja": "近畿労働金庫NPOサポートローン開始",
+      "category": "movement"
+    },
+    {
+      "node_id": "timeline_007",
+      "type": "timeline_event",
+      "year": 2001,
+      "event_ja": "市民のための金融のしくみ 学習・討議",
+      "category": "movement"
+    },
+    {
+      "node_id": "timeline_008",
+      "type": "timeline_event",
+      "year": 2002,
+      "event_ja": "NPOバンク ap bank 設立",
+      "category": "organization_event"
+    },
+    {
+      "node_id": "timeline_009",
+      "type": "timeline_event",
+      "year": 2003,
+      "event_ja": "東京CPB設立総会",
+      "category": "organization_event"
+    },
+    {
+      "node_id": "timeline_010",
+      "type": "timeline_event",
+      "year": 2004,
+      "event_ja": "東京CPB融資開始",
+      "category": "organization_event"
+    },
+    {
+      "node_id": "timeline_011",
+      "type": "timeline_event",
+      "year": 2011,
+      "event_ja": "東日本大震災",
+      "category": "social_context"
+    },
+    {
+      "node_id": "timeline_012",
+      "type": "timeline_event",
+      "year": 2012,
+      "event_ja": "政権交代",
+      "category": "social_context"
+    },
+    {
+      "node_id": "timeline_013",
+      "type": "timeline_event",
+      "year": 2013,
+      "event_ja": "東京CPB10周年",
+      "category": "organization_event"
+    },
+    {
+      "node_id": "timeline_014",
+      "type": "timeline_event",
+      "year": 2014,
+      "event_ja": "特定秘密保護法施行",
+      "category": "policy_change"
+    },
+    {
+      "node_id": "timeline_015",
+      "type": "timeline_event",
+      "year": 2015,
+      "event_ja": "NPO法改正",
+      "category": "policy_change"
+    },
+    {
+      "node_id": "timeline_016",
+      "type": "timeline_event",
+      "year": 2020,
+      "event_ja": "コロナ感染拡大",
+      "category": "social_context"
+    },
+    {
+      "node_id": "timeline_017",
+      "type": "timeline_event",
+      "year": 2023,
+      "event_ja": "東京CPBコロナ対応 無利子融資",
+      "category": "organization_event"
+    },
+    {
+      "node_id": "financial_model_001",
+      "type": "financial_model",
+      "name_en": "Tokyo CPB Citizen Finance Model"
+    },
+    {
+      "node_id": "statistics_001",
+      "type": "statistics",
+      "name_en": "Tokyo CPB Basic Statistics"
+    },
+    {
+      "node_id": "governance_001",
+      "type": "governance",
+      "name_en": "Tokyo CPB Governance"
+    }
+  ]
+}

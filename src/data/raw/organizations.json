@@ -1,0 +1,88 @@
+{
+  "organizations": [
+    {
+      "organization_id": "org_001",
+      "name_ja": "カフェこすもす",
+      "location": "八王子市",
+      "type": "community_cafe"
+    },
+    {
+      "organization_id": "org_002",
+      "name_ja": "高齢社会の食と職を考える チャンプルーの会",
+      "location": "東京",
+      "type": "nonprofit"
+    },
+    {
+      "organization_id": "org_003",
+      "name_ja": "杉並アヤックスサッカークラブ",
+      "location": "杉並区",
+      "type": "sports_club"
+    },
+    {
+      "organization_id": "org_004",
+      "name_ja": "自立支援センター ふるさとの会",
+      "location": "新宿区",
+      "type": "support_center"
+    },
+    {
+      "organization_id": "org_005",
+      "name_ja": "ACT板橋たすけあいワーカーズあやとり",
+      "location": "板橋区",
+      "type": "workers_collective"
+    },
+    {
+      "organization_id": "org_006",
+      "name_ja": "ほっとコミュニティえどがわ",
+      "location": "江戸川区",
+      "type": "community_support"
+    },
+    {
+      "organization_id": "org_007",
+      "name_ja": "あうん",
+      "location": "荒川区",
+      "type": "social_enterprise"
+    },
+    {
+      "organization_id": "org_008",
+      "name_ja": "コレクティブハウジング社",
+      "location": "千代田区",
+      "type": "housing_collective"
+    },
+    {
+      "organization_id": "org_009",
+      "name_ja": "生活支援センターあらかわと",
+      "location": "松戸市",
+      "type": "support_center"
+    },
+    {
+      "organization_id": "org_010",
+      "name_ja": "エコメッセ",
+      "location": "世田谷区",
+      "type": "environmental_project"
+    },
+    {
+      "organization_id": "org_011",
+      "name_ja": "狛江さつき会 カレーショップメイ",
+      "location": "狛江市",
+      "type": "community_business"
+    },
+    {
+      "organization_id": "org_012",
+      "name_ja": "ACT町田たすけあいワーカーズ",
+      "location": "町田市",
+      "type": "workers_collective"
+    },
+    {
+      "organization_id": "org_013",
+      "name_ja": "麻の葉",
+      "location": "多摩市",
+      "type": "community_space"
+    },
+    {
+      "organization_id": "org_014",
+      "name_ja": "食事サービス加多厨",
+      "location": "八王子市",
+      "type": "meal_service"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "participants": [
+    {
+      "person_id": "person_roundtable_001",
+      "name_ja": "庄妙子",
+      "role_ja": "理事",
+      "affiliation_ja": "東京CPB",
+      "appears_on_scan_pages": [
+        5,
+        9
+      ],
+      "confidence": "high"
+    },
+    {
+      "person_id": "person_roundtable_002",
+      "name_ja": "吉田由美子",
+      "role_ja": "理事",
+      "affiliation_ja": "東京CPB",
+      "appears_on_scan_pages": [
+        5,
+        7,
+        9
+      ],
+      "confidence": "high"
+    },
+    {
+      "person_id": "person_roundtable_003",
+      "name_ja": "石塚芳恵",
+      "role_ja": "元市民審査委員",
+      "affiliation_ja": "東京CPB",
+      "appears_on_scan_pages": [
+        5,
+        6,
+        9
+      ],
+      "confidence": "high"
+    },
+    {
+      "person_id": "person_roundtable_004",
+      "name_ja": "植田泉",
+      "role_ja": "理事長",
+      "affiliation_ja": "東京CPB",
+      "appears_on_scan_pages": [
+        5,
+        8,
+        9
+      ],
+      "confidence": "high"
+    },
+    {
+      "person_id": "person_roundtable_005",
+      "name_ja": "坪井真里",
+      "role_ja": "事務局長",
+      "affiliation_ja": "東京CPB",
+      "appears_on_scan_pages": [
+        5,
+        9
+      ],
+      "confidence": "high"
+    }
+  ]
+}
