@@ -67,6 +67,17 @@ const goalVariants: Variants = {
 
 type HoveredCircle = 'left' | 'right' | null;
 
+// These labels were originally tuned for a darker background.
+const modelPalette = {
+  leftCircle: '#c9a96e',
+  leftText: '#8b6914',
+  rightCircle: '#d0b17b',
+  rightStroke: '#9b7b46',
+  rightText: '#866936',
+  supportingText: '#6b6058',
+  centerText: '#2c2520',
+};
+
 export default function TheModel() {
   const [hovered, setHovered] = useState<HoveredCircle>(null);
 
@@ -97,16 +108,16 @@ export default function TheModel() {
           <defs>
             {/* Radial gradients for circle fills */}
             <radialGradient id="leftGrad" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="#c9a96e" stopOpacity="0.15" />
-              <stop offset="100%" stopColor="#c9a96e" stopOpacity="0.05" />
+              <stop offset="0%" stopColor={modelPalette.leftCircle} stopOpacity="0.15" />
+              <stop offset="100%" stopColor={modelPalette.leftCircle} stopOpacity="0.05" />
             </radialGradient>
             <radialGradient id="rightGrad" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="#e8d5b0" stopOpacity="0.15" />
-              <stop offset="100%" stopColor="#e8d5b0" stopOpacity="0.05" />
+              <stop offset="0%" stopColor={modelPalette.rightCircle} stopOpacity="0.16" />
+              <stop offset="100%" stopColor={modelPalette.rightCircle} stopOpacity="0.06" />
             </radialGradient>
             <radialGradient id="overlapGrad" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="#c9a96e" stopOpacity="0.30" />
-              <stop offset="100%" stopColor="#c9a96e" stopOpacity="0.12" />
+              <stop offset="0%" stopColor={modelPalette.leftCircle} stopOpacity="0.30" />
+              <stop offset="100%" stopColor={modelPalette.leftCircle} stopOpacity="0.12" />
             </radialGradient>
 
             {/* Clip paths for the overlap region */}
@@ -131,7 +142,7 @@ export default function TheModel() {
               cy="190"
               r="140"
               fill="url(#leftGrad)"
-              stroke="#c9a96e"
+              stroke={modelPalette.leftCircle}
               strokeWidth="1.5"
               strokeOpacity="0.6"
             />
@@ -150,9 +161,9 @@ export default function TheModel() {
               cy="190"
               r="140"
               fill="url(#rightGrad)"
-              stroke="#e8d5b0"
-              strokeWidth="1.5"
-              strokeOpacity="0.6"
+              stroke={modelPalette.rightStroke}
+              strokeWidth="1.6"
+              strokeOpacity="0.72"
             />
           </motion.g>
 
@@ -176,7 +187,7 @@ export default function TheModel() {
               y="115"
               textAnchor="middle"
               className="font-ja"
-              fill="#c9a96e"
+              fill={modelPalette.leftText}
               fontSize="16"
               fontWeight="600"
             >
@@ -186,7 +197,7 @@ export default function TheModel() {
               x="185"
               y="135"
               textAnchor="middle"
-              fill="#a09888"
+              fill={modelPalette.supportingText}
               fontSize="10"
               fontFamily="Inter, sans-serif"
             >
@@ -201,7 +212,7 @@ export default function TheModel() {
               y="115"
               textAnchor="middle"
               className="font-ja"
-              fill="#e8d5b0"
+              fill={modelPalette.rightText}
               fontSize="16"
               fontWeight="600"
             >
@@ -211,7 +222,7 @@ export default function TheModel() {
               x="515"
               y="135"
               textAnchor="middle"
-              fill="#a09888"
+              fill={modelPalette.supportingText}
               fontSize="10"
               fontFamily="Inter, sans-serif"
             >
@@ -226,7 +237,7 @@ export default function TheModel() {
               y="185"
               textAnchor="middle"
               className="font-ja"
-              fill="#2c2520"
+              fill={modelPalette.centerText}
               fontSize="20"
               fontWeight="700"
             >
@@ -236,7 +247,7 @@ export default function TheModel() {
               x="350"
               y="206"
               textAnchor="middle"
-              fill="#a09888"
+              fill={modelPalette.supportingText}
               fontSize="10"
               fontFamily="Inter, sans-serif"
               letterSpacing="0.15em"
@@ -253,14 +264,14 @@ export default function TheModel() {
                   cx="145"
                   cy={230 + i * 28}
                   r="2.5"
-                  fill="#c9a96e"
+                  fill={modelPalette.leftText}
                   opacity="0.7"
                 />
                 <text
                   x="155"
                   y={234 + i * 28}
                   className="font-ja"
-                  fill="#a09888"
+                  fill={modelPalette.supportingText}
                   fontSize="10.5"
                 >
                   {point}
@@ -277,14 +288,14 @@ export default function TheModel() {
                   cx="435"
                   cy={230 + i * 28}
                   r="2.5"
-                  fill="#e8d5b0"
+                  fill={modelPalette.rightText}
                   opacity="0.7"
                 />
                 <text
                   x="445"
                   y={234 + i * 28}
                   className="font-ja"
-                  fill="#a09888"
+                  fill={modelPalette.supportingText}
                   fontSize="10.5"
                 >
                   {point}
@@ -306,7 +317,7 @@ export default function TheModel() {
           >
             {conceptModel.goal_ja}
           </motion.p>
-          <p className="mt-3 text-center text-sm tracking-widest text-text-muted">
+          <p className="mt-3 text-center text-sm tracking-widest text-text-secondary">
             しあわせな地域をつくるために
           </p>
         </FadeIn>
