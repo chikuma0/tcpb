@@ -63,3 +63,28 @@ Deployed to `https://tcpb-site.vercel.app` after each branding pass so visual fe
 ### Notes
 - `public/icons.svg` was left alone because it is an unrelated social icon sprite and is not part of TCPB brand presentation.
 - No git commit was made for this branding session yet.
+
+## 2026-03-17 — Model diagram readability fix and isolated production deploy
+
+### What was done
+Adjusted the Venn-diagram text colors in the model section so the right-hand label, bullet markers, and supporting copy remain readable against the current light page background. The right circle outline and fill were also strengthened slightly so the structure still reads clearly after the text contrast fix.
+
+### Changes
+
+| Area | Before | After |
+|------|--------|-------|
+| Right-side heading color | Very light beige inherited from earlier dark-background styling | Darker brown with stronger contrast on `#faf7f2` |
+| Supporting small text | Low-contrast muted text inside the SVG | Darker supporting text matched to the current light theme |
+| Right circle outline | Soft outline that blended into the page | More visible stroke and slightly stronger fill |
+| Color management | Hardcoded per-element values scattered in the SVG | Centralized `modelPalette` constants in the component |
+
+### Files changed
+- `src/sections/TheModel.tsx` — updated SVG palette, supporting text color, and right-circle stroke/fill balance
+
+### Verification
+- Local production build passed with `npm run build`
+- Deployed from an isolated worktree so only `src/sections/TheModel.tsx` was pushed, avoiding unrelated local changes on `main`
+
+### Production
+Pushed commit `06a35b5` (`Improve model diagram readability`) to `origin/main`.
+Vercel production deployment reached `Ready` on 2026-03-17 at 13:37 JST.
