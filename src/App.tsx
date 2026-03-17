@@ -7,6 +7,7 @@ import TheEcosystem from './sections/TheEcosystem';
 import TokyoFootprint from './sections/TokyoFootprint';
 import TheNumbers from './sections/TheNumbers';
 import WhyThisMatters from './sections/WhyThisMatters';
+import TcpbLogo from './components/Brand/TcpbLogo';
 
 const sections = [
   { id: 'hero', label: 'トップ' },
@@ -92,6 +93,25 @@ function SectionNav() {
   );
 }
 
+function Footer() {
+  return (
+    <footer className="border-t border-black/10 bg-[#ebe4db]">
+      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-10 md:flex-row md:items-end md:justify-between">
+        <TcpbLogo size="footer" className="text-text-secondary/75" />
+        <div className="max-w-md space-y-2 text-sm text-text-secondary">
+          <p className="tracking-[0.2em] text-accent uppercase">
+            Citizen Finance Archive
+          </p>
+          <p>
+            A digital reading of Tokyo Community Power Bank&apos;s civic finance
+            model, relationships, and regional footprint.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
 export default function App() {
   useEffect(() => {
     // Handle initial hash navigation
@@ -118,6 +138,7 @@ export default function App() {
         <TheNumbers />
         <WhyThisMatters />
       </main>
+      <Footer />
     </>
   );
 }

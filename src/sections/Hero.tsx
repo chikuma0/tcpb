@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import TcpbLogo from '../components/Brand/TcpbLogo';
 
 function ConcentricCircles() {
   const circles = [
@@ -91,8 +92,11 @@ export default function Hero() {
           'radial-gradient(ellipse 80% 60% at 50% 40%, #ffffff 0%, #f0ebe3 100%)',
       }}
     >
+      <div className="absolute left-6 top-6">
+        <TcpbLogo size="micro" className="text-text-primary/82" />
+      </div>
+
       <div className="px-6 text-center">
-        {/* Japanese title */}
         <motion.h1
           lang="ja"
           className="font-ja text-[2rem] leading-tight font-semibold text-text-primary sm:text-5xl md:text-7xl"
@@ -105,27 +109,24 @@ export default function Hero() {
           わたしの地域でまわる
         </motion.h1>
 
-        {/* English subtitle */}
         <motion.p
-          className="mt-6 text-sm tracking-[0.2em] text-accent uppercase"
+          className="mt-6 text-sm tracking-[0.26em] text-accent uppercase"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: 'easeOut', delay: 0.6 }}
+          transition={{ duration: 0.8, ease: 'easeOut', delay: 0.55 }}
         >
-          Tokyo Community Power Bank
+          Citizen Finance Archive
         </motion.p>
 
-        {/* Tagline */}
         <motion.p
           className="mt-3 text-base text-text-secondary"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: 'easeOut', delay: 0.9 }}
+          transition={{ duration: 0.8, ease: 'easeOut', delay: 0.8 }}
         >
           20 Years of Citizen Finance
         </motion.p>
 
-        {/* Concentric circles animation */}
         <ConcentricCircles />
       </div>
 
